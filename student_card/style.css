@@ -1,0 +1,96 @@
+html, body { 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+}
+
+.card {
+    width: 440px;
+    height: 270px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -240px;
+    margin-top: -150px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #f7f6f2;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.code {
+    padding-left: 130px;
+}
+
+.name {
+    padding-left: 70px;
+}
+
+.second {
+    width: 320px;
+}
+
+.chip {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.fin {
+    margin-left: 40px;
+}
+
+.pin {
+    margin-left: 125px;
+}
+
+.bit {
+    margin-left: 70px;
+}
+
+.year {
+    margin-left: 165px;
+}
+
+.card_sag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 90px;
+}
+
+.bdu {
+    width: 120px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.button {
+    width: 290px;
+    height: 100px;
+    bottom:100px;
+    position: fixed;
+    left:43%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    color: brown;
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.asd {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}

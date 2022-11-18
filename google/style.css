@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif;
+    background-color: #202124;
+}
+
+.header {
+    font-size: 13px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+path {
+    fill: white;
+}
+
+svg {
+    width: 24px;
+}
+
+.pp {
+    border-radius: 50%;
+}
+
+.box1 {
+    margin: 9px;
+}
+
+.body {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 599px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.googleimg {
+    width: 270px;
+}
+
+.search {
+    border-radius: 25px;
+    width: 580px;
+    height: 45px;
+    border: 1px solid #5f6368;
+    background: #202124;
+}
+
+.button1 {
+    height: 35px;
+    width: 130px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0px solid;
+    background: #303134;
+    color: white;
+}
+
+.div2 {
+    margin-top: 20px;
+}
+
+.div3 {
+    display: flex;
+    margin-top: 25px;
+}
+
+.div4 {
+    margin-top: 25px;
+    font-size: 14px;
+    color:#dbdbdb;
+}
+
+.buttonsearch {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: #202124;
+    border: 0px solid rgb(219,219,219);
+    border-radius: 50%;
+}
+
+.microphone {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 540px;
+    width: 35px;
+    height: 35px;
+    background-color: #202124;
+    border: 0px;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+a {
+    color: inherit;
+    color: #6a9fe7;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.footer1 {
+    width: 1910px;
+    height: 45px;
+    border: 0px;
+    background: #171717;
+    font-size: 16px;
+    color: #9aa0a6;  
+}
+
+.footer2 {
+    width: 1910px;
+    border: 1px solid #303134;
+}
+
+.footer3 {
+    margin-top: 1px;
+    width: 1910px;
+    height: 45px;
+    border: 0px;
+    background: #171717;
+}
+
+.p1 {
+    position: absolute;
+    margin-left: 25px;
+}
+
+.p2 {
+    position: absolute;
+    font-size: 15px;
+    color: #9aa0a6;
+    margin-left: 15px;
+}
+
+.p3 {
+    position: absolute;
+    font-size: 15px;
+    color: #9aa0a6;
+    margin-left: 1670px;
+}
+
+span {
+    padding: 10px;
+}

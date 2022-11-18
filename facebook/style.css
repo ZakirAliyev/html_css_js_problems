@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    margin-left: 370px;
+    margin-top: 110px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    
+}
+
+.img_face {
+    width: 300px;
+}
+
+span {
+    font-size: 27px;
+    margin-left: 30px;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1920px;
+    height: 700px;
+    background: #f0f2f5;
+}
+
+.login {
+    border:1px solid rgb(219,219,219);
+    border-radius: 10px;
+    width: 400px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    box-shadow: 1px 1px rgb(219,219,219);
+    margin-top: 110px;
+    margin-left: 100px;
+}
+
+.border {
+    border: 1px solid rgb(219,219,219);
+    width: 90%;
+    margin-top: 25px;
+}
+
+.create {
+    background: #42B72A;
+    height: 52px;
+    width: 200px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+    border:1px solid rgb(219,219,219);
+}
+
+.createe {
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text {
+    height: 50px;
+    width: 370px;
+    margin-top: 15px;
+}
+
+.button {
+    height: 52px;
+    width: 378px;
+    margin-top: 20px;
+    background: #1877f2;
+    cursor: pointer;
+    border-radius: 7px;
+    border:1px solid rgb(219,219,219);
+}
+
+.forgotpass {
+    color: inherit;
+    color:#1877f2;
+    font-size: 14px;
+}
+
+strong {
+    color: white;
+    font-size: 18px;
+}
+
+::placeholder {
+    font-size: 18px;
+    padding: 10px;
+    color: gray;
+}
+
+input {
+    border:1px solid rgb(219,219,219);
+}
+
+.login1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    width: 400px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.box_2 {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#str {
+    color: black;
+    font-size: 15px;
+}
+
+.end {
+    font-size: 15px;
+    margin-left: 4px;
+    text-align: start;
+    color: gray;
+}
+
+.border2 {
+    width: 1000px;
+    border: 1px solid rgb(219,219,219);
+    margin-left: 400px;
+    margin-top: 15px;
+}
+
+.end11 {
+    margin-left: 400px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.end1 {
+    font-size: 13px;
+    margin-left: 13px;
+    text-align: start;
+    color: gray;
+}
+
+.end13 {
+    margin-left: 410px;
+    margin-top: 35px;
+    justify-content: center;
+}
