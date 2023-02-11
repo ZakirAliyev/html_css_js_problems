@@ -1,0 +1,92 @@
+* {
+    background: #fafafa;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+body {
+    max-height: 720px;
+}
+
+.frame {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #dbdbdb;
+    height: 400px;
+    width: 350px;
+    background: #ffffff;
+}
+
+.label {
+    margin: 10px auto;
+    border: 1px solid #dbdbdb;
+    height: 60px;
+    width: 350px;
+    background: white;
+}
+
+.p {
+    margin-top: 17px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80px;
+    font-size: 14px;
+}
+
+i {
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+input {
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    margin-left: 43px;
+    width: 260px;
+    height: 35px;
+    margin-top: 7px;
+}
+
+input[type="submit"] {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.line {
+    margin-top: 25px;
+    margin-left: 43px;
+    border: 1px solid #dbdbdb;
+    width: 105px;
+    height: 0;
+    position: absolute;
+}
+
+.img {
+    margin: 15px auto;
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+    color:  #385185;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #385185;
+}
+
+::placeholder {
+    font-size: 12px;
+    font-weight: 380;
+}
+
+.word {
+    font-size: 12px; 
+    margin-left: 15px;
+    color: #b5b5b5;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+}
