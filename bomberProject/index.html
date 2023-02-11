@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="frame">
+        <div class="img">
+            <img src="whatsapp.png" alt="whatsapp">
+            <img src="wp.png" alt="bomb" style="width: 200px;">
+        </div>
+        <form>
+            <label style="margin-left: 40px;" for="phone">Enter your phone number:</label>
+            <input placeholder="Please enter the telephone number" style="margin-top: 20px; width: 90%; height: 30px;" type="tel" id="phone" name="phone" maxlength ="10" required>
+            <br><br> Format: 012-345-67-89 (Without '-') <br>----------------------------------------
+            <br><label for="message">Enter the message :</label>
+            <textarea placeholder="Please enter your message in this box" rows="4" cols="28" name="comment" form="usrform"></textarea>
+            <label for="quantity">Quantity ( 1-100 ):</label>
+            <input style="margin-left: 50px; height: 20px; font-weight: 500;" type="number" id="quantity" name="quantity" min="1" max="100" required>
+            <br><button>BOMB!!!</button>
+        </form>
+    </div>
+</body>
+</html>
